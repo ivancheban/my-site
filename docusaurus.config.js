@@ -26,6 +26,10 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
+        googleAnalytics: {
+          trackingID: 'G-GLNSG1W03Z',
+          // anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
