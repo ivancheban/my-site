@@ -27,7 +27,7 @@ const config = {
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         googleAnalytics: {
-          trackingID: 'G-GLNSG1W03Z',
+          trackingID: 'UA-162550995-21',
           // anonymizeIP: true,
         },
         blog: {
