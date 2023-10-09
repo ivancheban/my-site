@@ -6,6 +6,10 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
+import Cat from '/img/cat.png';
+
+<img src={Cat} alt="Siamese cat" style={{width: 400}} />
+
 ## Getting Started
 
 Get started by **creating a new site**.
