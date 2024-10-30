@@ -10,6 +10,8 @@ import Cat from '/img/cat.png';
 
 <img src={Cat} alt="Siamese cat" style={{width: 400}} />
 
+![Cat](/img/cat.png)
+
 ## Getting Started
 
 Get started by **creating a new site**.
