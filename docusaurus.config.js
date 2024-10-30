@@ -7,13 +7,13 @@
 const config = {
   title: 'Documentation site',
   tagline: 'How to create your documentation site with Docusaurus',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ivan-documentation-example.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ivancheban', // Usually your GitHub org/user name.
+  projectName: 'my-site', // Usually your repo name.
 
   presets: [
     [
