@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ivancheban/my-site/edit/master/docs/',
+          editUrl: 'https://github.com/ivancheban/my-site/edit/master/',
         },
         googleAnalytics: {
           trackingID: 'UA-162550995-21',
@@ -33,7 +33,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ivancheban/my-site/edit/master/docs/',
+            'https://github.com/ivancheban/my-site/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,7 +65,7 @@ const config = {
           },
 //          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ivancheban/my-site',
             label: 'GitHub',
             position: 'right',
           },
