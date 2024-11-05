@@ -26,7 +26,7 @@ const config = {
           editUrl: 'https://github.com/ivancheban/my-site/edit/master/',
         },
         googleAnalytics: {
-          trackingID: 'UA-162550995-21',
+          trackingID: 'G-4V8GLHD7HM',
           // anonymizeIP: true,
         },
         blog: {
