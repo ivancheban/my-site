@@ -21,7 +21,7 @@ sidebar_position: 1
   </p>
 </div>
 
-## Beginner's Guide to GraphQL Queries in GitHub's GraphiQL Editor
+## Beginner's guide to GraphQL queries in GitHub's GraphiQL Editor
 
 GraphQL is a query language for APIs, and GitHub provides a GraphiQL interface to explore and test GraphQL queries. This guide will help you get started with making simple queries for your repository.
 
@@ -33,7 +33,7 @@ GraphQL is a query language for APIs, and GitHub provides a GraphiQL interface t
 
     ![Explorer](img/explorer.png)
 
-### Step 2: Understand the Basic Query Structure
+### Step 2: Understand the basic query structure
 
 A basic GraphQL query looks like this:
 
