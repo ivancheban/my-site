@@ -25,9 +25,9 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/ivancheban/my-site/edit/master/',
         },
-        googleAnalytics: {
+        gtag: {
           trackingID: 'G-NJKPS9HXWM',
-          // anonymizeIP: true,
+          anonymizeIP: true,
         },
         blog: {
           showReadingTime: true,
