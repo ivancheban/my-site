@@ -12,9 +12,14 @@ def get_content(directory):
                     with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
                         md_content = f.read()
                         
-                        # Extract title from the frontmatter
-                        title_match = re.search(r'^---\s*\ntitle:\s*(.+?)\s*\n', md_content, re.MULTILINE)
-                        title = title_match.group(1) if title_match else file.replace('.md', '').replace('.mdx', '')
+                        # Extract title from the first H1 heading
+                        title_match = re.search(r'^#\s+(.+)$', md_content, re.MULTILINE)
+                        if title_match:
+                            title = title_match.group(1)
+                        else:
+                            # Fallback to frontmatter title if H1 is not found
+                            frontmatter_title_match = re.search(r'^---\s*\ntitle:\s*(.+?)\s*\n', md_content, re.MULTILINE)
+                            title = frontmatter_title_match.group(1) if frontmatter_title_match else os.path.splitext(file)[0]
                         
                         # Remove frontmatter
                         md_content = re.sub(r'^---\s*\n.*?\n---\s*\n', '', md_content, flags=re.DOTALL)
@@ -23,7 +28,7 @@ def get_content(directory):
                         
                         # Generate URL with '/docs/' prefix
                         url = '/docs/' + os.path.relpath(os.path.join(root, file), directory).replace('\\', '/')
-                        url = url.replace('.md', '').replace('.mdx', '')
+                        url = os.path.splitext(url)[0]  # Remove file extension
                         if url.endswith('/index'):
                             url = url[:-5]  # Remove 'index' from the end of the URL
                         
