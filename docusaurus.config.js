@@ -58,10 +58,16 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            type: "docSidebar",
+            sidebarId: "defaultSidebar",
+            position: "left",
+            label: "Docs",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "newSidebar",
+            position: "left",
+            label: "Test",
           },
 //          {to: '/blog', label: 'Blog', position: 'left'},
           {
