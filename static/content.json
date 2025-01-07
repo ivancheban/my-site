@@ -2,7 +2,7 @@
   {
     "title": "Tutorial Intro",
     "content": "<h1>Tutorial Intro</h1>\n<p>Let's discover <strong>Docusaurus in less than 5 minutes</strong>.</p>\n<p>import Cat from '/img/cat.png';</p>\n<p><img src={Cat} alt=\"Siamese cat\" style={{width: 400}} /></p>\n<p><img alt=\"Cat\" src=\"/img/cat.png\" /></p>\n<h2>Getting Started</h2>\n<p>Get started by <strong>creating a new site</strong>.</p>\n<p>Or <strong>try Docusaurus immediately</strong> with <strong><a href=\"https://docusaurus.new\">docusaurus.new</a></strong>.</p>\n<h2>Generate a new site</h2>\n<p>Generate a new Docusaurus site using the <strong>classic template</strong>:</p>\n<p><code>shell\nnpm init docusaurus@latest my-website classic</code></p>\n<h2>Start your site</h2>\n<p>Run the development server:</p>\n<p>```shell\ncd my-website</p>\n<p>npx docusaurus start\n```</p>\n<p>Your site starts at <code>http://localhost:3000</code>.</p>\n<p>Open <code>docs/intro.md</code> and edit some lines: the site <strong>reloads automatically</strong> and displays your changes.</p>",
-    "url": "/docs/intro"
+    "url": "/docs/default-docs/intro"
   },
   {
     "title": "Technical Communication Tasks",
